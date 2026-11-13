@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Circle Container -->
+    <path
+        android:pathData="M32,4 C47.464,4 60,16.536 60,32 C60,47.464 47.464,60 32,60 C16.536,60 4,47.464 4,32 C4,16.536 16.536,4 32,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="32"
+                android:endY="60"
+                android:startX="32"
+                android:startY="4"
+                android:type="linear">
+                <item android:color="#1E293B" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Ring Accent -->
+    <path
+        android:pathData="M32,6 C46.359,6 58,17.641 58,32 C58,46.359 46.359,58 32,58 C17.641,58 6,46.359 6,32 C6,17.641 17.641,6 32,6 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#334155" />
+
+    <!-- Lock Shackle -->
+    <path
+        android:pathData="M24,28 V22 C24,17.582 27.582,14 32,14 C36.418,14 40,17.582 40,22 V28"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Lock Body -->
+    <path
+        android:pathData="M20,28 C20,26.895 20.895,26 22,26 H42 C43.105,26 44,26.895 44,28 V44 C44,45.105 43.105,46 42,46 H22 C20.895,46 20,45.105 20,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="32"
+                android:endY="46"
+                android:startX="32"
+                android:startY="26"
+                android:type="linear">
+                <item android:color="#0EA5E9" android:offset="0.0" />
+                <item android:color="#0284C7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Keyhole -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M32,33 C33.105,33 34,33.895 34,35 C34,35.74 33.595,36.38 33,36.72 V40 C33,40.55 32.55,41 32,41 C31.45,41 31,40.55 31,40 V36.72 C30.405,36.38 30,35.74 30,35 C30,33.895 30.895,33 32,33 Z" />
+</vector>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">VUKA</string>
+    <string name="tagline">See the risk. Know the journey. Get there.</string>
+    <string name="passenger">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="default_country_code">+27</string>
+    <string name="phone_hint">82 123 4567</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="popia_disclaimer">By continuing you consent to POPIA active-trip location sharing for your safety.</string>
+
+    <string name="title_verification">Enter Verification Code</string>
+    <string name="subtitle_verification">We\'ve sent a 6-digit PIN to your mobile number.</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="verify_continue">Verify &amp; Continue</string>
+    <string name="back">Back</string>
+    <string name="otp_hint">•</string>
+
+    <string name="verified_driver">✔ Verified Driver</string>
+    <string name="plate_number">XYZ 123 GP</string>
+    <string name="online">Online</string>
+    <string name="trip_safety_profile">Trip Safety Profile</string>
+    <string name="pickup_status">Pickup: Amber</string>
+    <string name="route_status">Route: Red</string>
+    <string name="destination_status">Destination: Amber</string>
+    <string name="hotspot_warning">⚠️ Hotspot warning: High risk of smash-and-grab on current route.</string>
+    <string name="use_safer_route">Use Safer Route</string>
+    <string name="report_incident">Report Incident</string>
+    <string name="emergency_sos">Emergency SOS</string>
+
+    <string name="title_verify_ride">Verify Your Ride</string>
+    <string name="subtitle_verify_ride">Check vehicle details before stepping inside for your safety.</string>
+    <string name="driver_sipho">Sipho M.</string>
+    <string name="label_vehicle">Vehicle</string>
+    <string name="val_vehicle">Toyota Corolla, White</string>
+    <string name="label_plate">License Plate</string>
+    <string name="val_plate">XYZ 123 GP</string>
+    <string name="confirm_match">Confirm Vehicle Match</string>
+    <string name="status_pickup_elevated">Pickup: Elevated</string>
+    <string name="status_route_high_risk">Route: High Risk</string>
+    <string name="status_dest_moderate">Destination: Moderate</string>
+    <string name="warning_smash_grab">⚠️ Recent smash-and-grab reported at intersection.</string>
+    <string name="warning_hijacking">⚠️ Elevated hijacking risk in sector.</string>
+    <string name="use_safer_route_time">Use Safer Route (+6 min)</string>
+    <string name="start_trip">Start Trip</string>
+
+    <string name="on_expected_route">🟢 On Expected Route • XYZ 123 GP</string>
+    <string name="trusted_contact">Trusted Contact Sharing</string>
+    <string name="sharing_live_mum">Sharing trip live with Mum (Location Active)</string>
+    <string name="stop_sharing">Stop Sharing</string>
+    <string name="route_changed_check">⚠️ Route changed - is everything okay?</string>
+    <string name="i_am_okay">I am okay</string>
+    <string name="i_need_help">I need help</string>
+
+    <string name="get_started">Get Started</string>
+    <string name="feature_1_title">Real-Time Route Safety</string>
+    <string name="feature_1_desc">Live hotspot and risk profile monitoring along your journey.</string>
+    <string name="feature_2_title">Trusted Trip Sharing</string>
+    <string name="feature_2_desc">Share active trip location with emergency contacts automatically.</string>
+    <string name="feature_3_title">Identity Verification</string>
+    <string name="feature_3_desc">Verify vehicle details and driver status before stepping inside.</string>
+
+    <string name="desc_vuka_logo">VUKA Logo</string>
+    <string name="desc_phone_icon">Phone Icon</string>
+    <string name="desc_shield_icon">Shield Icon</string>
+    <string name="desc_back_icon">Back Icon</string>
+    <string name="desc_lock_icon">Lock Icon</string>
+    <string name="desc_driver_avatar">Driver Avatar</string>
+
+    <string name="mapbox_access_token">pk.eyJ1Ijoiem91c2FtYS1naXQiLCJhIjoiY213ZTgzZTk2MGR6ODMwczdyaHR3emdzbiJ9.amUotvvN4LAaI2EvG5HuNg</string>
+</resources>
