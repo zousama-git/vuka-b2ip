@@ -16,7 +16,7 @@
     <string name="back">Back</string>
     <string name="otp_hint">•</string>
 
-    <string name="verified_driver">✔ Verified Driver</string>
+    <string name="verified_driver">Verified Driver</string>
     <string name="plate_number">XYZ 123 GP</string>
     <string name="online">Online</string>
     <string name="trip_safety_profile">Trip Safety Profile</string>
@@ -67,5 +67,5 @@
     <string name="desc_lock_icon">Lock Icon</string>
     <string name="desc_driver_avatar">Driver Avatar</string>
 
-    <string name="mapbox_access_token">pk.eyJ1Ijoiem91c2FtYS1naXQiLCJhIjoiY213ZTgzZTk2MGR6ODMwczdyaHR3emdzbiJ9.amUotvvN4LAaI2EvG5HuNg</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoiem91c2FtYS1naXQiLCJhIjoiY213ZTgzZTk2MGR6ODMwczdyaHR3emdzbiJ9.amUotvvN4LAaI2EvG5HuNg</string> <!--will hide it later-->
 </resources>

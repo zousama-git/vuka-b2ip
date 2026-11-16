@@ -52,7 +52,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
-            <!-- Card 1: Driver & Vehicle Verification Card -->
+            <!-- STEP 1: Driver & Vehicle Verification Card -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/cardDriverVerification"
                 android:layout_width="match_parent"
@@ -185,13 +185,13 @@
                     android:textAllCaps="false"
                     android:textColor="@color/primary"
                     android:textSize="14sp"
-                    app:strokeColor="@color/primary"
-                    app:strokeWidth="1.5dp"
                     app:cornerRadius="12dp"
                     app:icon="@drawable/ic_camera"
                     app:iconGravity="textStart"
                     app:iconPadding="8dp"
                     app:iconTint="@color/primary"
+                    app:strokeColor="@color/primary"
+                    app:strokeWidth="1.5dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/vehicleInfoBox" />
@@ -222,7 +222,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Card 2: Trip Safety Profile Card -->
+            <!-- STEP 2: Trip Safety Profile Card (Unlocked Post-Verification) -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/cardTripSafety"
                 android:layout_width="match_parent"
@@ -230,6 +230,7 @@
                 android:layout_marginTop="16dp"
                 android:background="@drawable/bg_driver_card"
                 android:padding="16dp"
+                android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardDriverVerification">
@@ -384,7 +385,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Safer Route Button -->
+            <!-- STEP 2: Safer Route Button (Unlocked Post-Verification) -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
@@ -399,6 +400,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="15sp"
+                android:visibility="gone"
                 app:cornerRadius="14dp"
                 app:icon="@drawable/ic_shield_check"
                 app:iconGravity="textStart"
@@ -408,7 +410,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardTripSafety" />
 
-            <!-- Start Trip Button -->
+            <!-- STEP 2: Start Trip Button (Unlocked Post-Verification) -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
@@ -423,6 +425,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="16sp"
+                android:visibility="gone"
                 app:cornerRadius="14dp"
                 app:icon="@drawable/ic_arrow_right"
                 app:iconGravity="textEnd"

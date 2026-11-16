@@ -67,23 +67,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/button13"
-                style="@style/Widget.Material3.Button.TextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:minWidth="0dp"
-                android:paddingHorizontal="8dp"
-                android:text="@string/stop_sharing"
-                android:textColor="#EF4444"
-                android:textSize="12sp"
-                app:layout_constraintBottom_toBottomOf="@+id/textView30"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/textView30" />
-
             <TextView
                 android:id="@+id/textView31"
                 android:layout_width="0dp"
@@ -176,24 +159,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- Emergency SOS Button -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/button10"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginTop="12dp"
-            android:backgroundTint="#DC2626"
-            android:fontFamily="sans-serif-bold"
-            android:insetTop="0dp"
-            android:insetBottom="0dp"
-            android:text="@string/emergency_sos"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:cornerRadius="14dp"
-            app:icon="@drawable/ic_sos"
-            app:iconGravity="textStart"
-            app:iconPadding="8dp"
-            app:iconTint="@color/white" />
 
     </LinearLayout>
 
